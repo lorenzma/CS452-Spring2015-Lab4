@@ -1,1 +1,2 @@
-name, date, description
+Marcy Lorenzi, 3/27/2015
+Same as lab 3 but texture is added to the shape.
