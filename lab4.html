@@ -47,8 +47,8 @@ void main()
 	specular = vec4(0.0, 0.0, 0.1, 1.0);
     } 
     
-    //fColor = ambient + diffuse +specular;
-	fColor = vec4(1,1,1,1);
+    fColor = ambient + diffuse +specular;
+	//fColor = vec4(1,1,1,1);
 	fTexCoord = vTexCoord;
     gl_Position = projectionMatrix * modelViewMatrix * vPosition;
 	
